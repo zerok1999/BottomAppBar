@@ -32,12 +32,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    private void setSupportActionBar(BottomAppBar bottomAppBar) {
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.bottom_app_bar, menu);
+        getMenuInflater().inflate(R.menu.bottom_app_bar,menu);
         return true;
     }
 }
